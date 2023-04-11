@@ -55,8 +55,7 @@ header a {
 .center {
     margin: auto;
     text-align: center;
-    margin-top: 3.9rem;
-    
+    margin-top: 3.9rem;   
 }
 .center p {
     line-height: 28px;
@@ -67,12 +66,13 @@ header a {
 input {
     background-color: transparent;
     border-radius: 50px;
-    border: 1px solid #5e6166;
+    border: 1px solid #80838a;
     height: 46px;
     width: 100%;
     max-width: 584px;
-    padding: 0px 8px 10px 50px;
+    padding: 6px 8px 8px 50px; /*padding for sursor*/
     margin-top: 23px;
+    caret-color: white; /*cursor color */
 }
 input:focus {
     outline: none;
@@ -82,22 +82,18 @@ input:hover {
       border: none;
       background-color: #303134;
 }
-.icons {
-    position: absolute;
-    margin-top: 11.9rem;
-    margin-left: 25rem;
-}
-.icons img {
-    margin-right: 31rem;
-}
-.icons img:last-child {
-    margin-right: 0;
-}
 .search {
-    width: 23px;
-    height: 23px;
+    position: absolute;
+    margin-top: 8.2rem;
+    margin-left: -8.6rem;
+    width: 21px;
+    height: 21px;
 }
-
+.mic {
+    position: absolute;
+    margin-top: 8.1rem;
+    margin-left: 24rem;
+}
 .botton {
       color: #e8eaed;
       font-size: 14px;
