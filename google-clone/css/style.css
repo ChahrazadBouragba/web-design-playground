@@ -68,7 +68,10 @@ input {
     background-color: transparent;
     border-radius: 50px;
     border: 1px solid #5e6166;
-    padding: 14px 207px;
+    height: 46px;
+    width: 100%;
+    max-width: 584px;
+    padding: 0px 8px 10px 50px;
     margin-top: 23px;
 }
 input:focus {
@@ -177,8 +180,14 @@ li {
 }
 
 
+/*
+@media (min-width: 567px){
+    body {
+        background-color: #8ab4f8;
+    }
+}
 
-/**
+
 @media screen and (min-width: 300px) {
     body {
         background-color: greenyellow;
