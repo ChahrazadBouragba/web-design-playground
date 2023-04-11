@@ -79,6 +79,21 @@ input:hover {
       border: none;
       background-color: #303134;
 }
+.icons {
+    position: absolute;
+    margin-top: 11.9rem;
+    margin-left: 25rem;
+}
+.icons img {
+    margin-right: 31rem;
+}
+.icons img:last-child {
+    margin-right: 0;
+}
+.search {
+    width: 23px;
+    height: 23px;
+}
 
 .botton {
       color: #e8eaed;
@@ -159,21 +174,6 @@ li {
 }
 .right-menu li:last-child {
     margin-right: 0;
-}
-.icons {
-    position: absolute;
-    margin-top: 11.9rem;
-    margin-left: 25rem;
-}
-.icons img {
-    margin-right: 31rem;
-}
-.icons img:last-child {
-    margin-right: 0;
-}
-.search {
-    width: 23px;
-    height: 23px;
 }
 
 
