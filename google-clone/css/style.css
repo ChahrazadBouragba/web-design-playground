@@ -10,6 +10,8 @@ body {
     color: #bdc1c6;
     font-family:Arial, Helvetica, sans-serif;
     overflow: hidden;
+    margin: 0;
+    min-height: 100vh; 
 }
 header {
     display: flex;
@@ -70,7 +72,7 @@ input {
     height: 46px;
     width: 100%;
     max-width: 584px;
-    padding: 6px 8px 8px 50px; /*padding for sursor*/
+    padding: 6px 8px 8px 50px; /*padding for cursor*/
     margin-top: 23px;
     caret-color: white; /*cursor color */
 }
@@ -127,12 +129,9 @@ li {
 }
 .country {
     padding: 17px;
-    position: absolute;
     background-color: #171717;
     width: 100%;
-    margin: -8px;
-    margin-top: 12rem;
-    color: ;
+    margin-top: 12.5rem;
     font-size: 15px;
 }
 .end {
@@ -145,7 +144,6 @@ li {
     border-top: 0.7px solid #54575b;
     background-color: #171717;
     width: 100%;
-    margin: -8px;
 }
 .end a {
     text-decoration: none;
