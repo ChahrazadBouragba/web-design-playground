@@ -1,6 +1,6 @@
 # HTML and CSS Practice Repository
 
-Welcome to my HTML and CSS practice repository! This is where I showcase my journey of learning and improving my web design skills through a collection of web development projects and coding exercises. 
+Welcome to my HTML and CSS practice repository! Here, you'll find a collection of my web development projects and coding exercises as I learn and improve my web design skills. 
 
 ## What's Inside
 
